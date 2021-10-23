@@ -1,0 +1,113 @@
+.sesion1{
+    position:relative;
+    height:100vh;
+    width:100%;
+    background:url(../imgs/mzwr_iobe_180727.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.content1{
+    color:#eee;
+    background:rgba(0, 0, 139,.3);
+    backdrop-filter:blur(7px);
+    width:55%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:30px;
+    border-radius:20px;
+    
+}
+#string, #number, #boolean{
+    margin-left:20px;
+    width:200px;
+    margin:auto;
+    margin-top:20px;
+    text-shadow:0 0 5px #eee,
+    0 0 15px #eee,
+    0 0 30px #eee,
+    0 0 60px #eee;
+}
+#input{
+    width:200px;
+    margin:auto;
+}
+#result{
+    margin-top:50px;
+    text-transform: uppercase;
+    font-weight:700;
+    font-size:55px;
+    height:150px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow:1px 6px 8px rgba(0,0,0);
+}
+
+#h1{
+    margin-bottom:20px;
+    font-size:65px;
+    margin: auto;
+    text-shadow:0 0 5px #eee,
+    0 0 15px #eee,
+    0 0 30px #eee,
+    0 0 60px #eee;
+    
+}
+
+
+
+.bxs-tree{
+    position:absolute;
+    top:340px;
+    left:0px;
+    font-size:300px;
+    color:#000;
+}
+
+#img1, #img2{
+    position:absolute;
+}
+#img1{
+    margin-top:300px;
+    width:400px;
+    right:20px;
+}
+#img2{
+    margin-top:260px;
+    width:200px;
+}
+#moon{
+
+    box-shadow:0 0 5px #2db2ff,
+    0 0 15px #2db2ff,
+    0 0 30px #2db2ff,
+    0 0 60px #2db2ff,
+    0 0 120px #2db2ff,
+    0 0 240px #2db2ff;
+    filter:blur(45px);
+
+}
+#moon, #moon2{
+    width:500px;
+    height:500px;
+    position:absolute;
+    border-radius:20rem;
+    top:-150px;
+    background:#eee;
+    margin-left:-220px;
+   
+}
+#moon2{
+    box-shadow:0 0 5px #2db2ff,
+    0 0 15px #2db2ff,
+    0 0 30px #2db2ff,
+    0 0 60px #2db2ff,
+    0 0 110px #2db2ff;
+
+}
